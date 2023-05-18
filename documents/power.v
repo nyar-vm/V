@@ -13,3 +13,4 @@ power(n, x) = match n {
 }
 power2 = .<x -> power(2, &x)>
 
+power2 = .(x -> <&x * &x>)
